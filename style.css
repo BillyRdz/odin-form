@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.container {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  margin: auto;
+}
+
+.side-bar {
+  height: auto;
+  width: 35%;
+  background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80")
+    no-repeat center;
+}
+
+.form-section {
+  background: #f1f1f1;
+  width: 65%;
+  padding: 10% 0;
+}
+.form-section-top {
+  background: #f1f1f1;
+  width: 65%;
+  padding: 10% 5%;
+}
+.form-section-middle {
+  background: #ffffff;
+  width: 100%;
+  padding: 20px 5%;
+}
+.form-section-bottom {
+  background: #f1f1f1;
+  width: 65%;
+  padding: 10% 5%;
+}
+
+input {
+  border-color: #e5e7eb;
+}
+
+button {
+  background-color: #596d48;
+}
